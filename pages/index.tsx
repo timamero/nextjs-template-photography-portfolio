@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <Layout {...homeLayoutProps}>
       <div>
-        <h1>Boon Photography</h1>
+        <h1>Home</h1>
       </div>
     </Layout>
   )

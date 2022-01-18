@@ -1,0 +1,13 @@
+.header {
+  font-size: 2rem;
+  letter-spacing: -0.15rem;
+}
+
+.headerBold {
+  font-weight: 700;
+}
+
+.headerLight {
+  display: block;
+  font-weight: 300;
+}

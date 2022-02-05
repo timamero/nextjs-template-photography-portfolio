@@ -1,0 +1,19 @@
+.menu {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  transform: translateX(-100%);
+  transition: var(--transition);
+}
+
+.menu:hover {
+  fill: rgb(112, 105, 105);
+}
+
+.menuItemsWrapper {
+  /* display: none; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -8,7 +8,7 @@ const Nav = () => {
   }
 
   return (
-    <nav id="mainNav">
+    <nav id="mainNav" className={styles.navWrapper}>
       <svg onClick={handleClick} className={styles.menu} width="20" version="1.1" viewBox="0 0 210 210">
         <g id="XMLID_2_">
           <path id="XMLID_4_" d="M75,0H15C6.716,0,0,6.716,0,15v60c0,8.284,6.716,15,15,15h60c8.284,0,15-6.716,15-15V15   C90,6.716,83.284,0,75,0z"/>

@@ -1,8 +1,12 @@
+.navWrapper {
+  height: 40px;
+}
+
 .menu {
   cursor: pointer;
   position: absolute;
   right: 0;
-  transform: translateX(-100%);
+  transform: translate(-80%, 80%);
   transition: var(--transition);
 }
 
@@ -18,7 +22,7 @@
   padding: 1rem 3rem;
   background-color: rgba(250, 250, 250, 0.65);
   transform: translate(-50%, -50%);
-  transition: 0.5s opacity linear;
+  transition: var(--transition);
 }
 
 .menuItemsWrapper > * {

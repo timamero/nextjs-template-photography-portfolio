@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <Nav />
-      <p><span className={styles.headerBold}>Boon</span> <span className={styles.headerLight}>Photography</span></p>
+      <p className={styles.headerText}><span className={styles.headerBold}>Boon</span> <span className={styles.headerLight}>Photography</span></p>
     </div>
   )
 }

@@ -1,4 +1,11 @@
 .header {
+  background-color: #FAFAFA;
+  
+}
+
+.headerText {
+  margin-left: 1rem;
+  padding-bottom: 0.5rem;
   font-size: 2rem;
   letter-spacing: -0.15rem;
 }

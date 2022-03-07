@@ -1,8 +1,7 @@
 import type { NextPage } from 'next'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
-import homePhoto1 from '../public/homePhoto1.jpg'
+import Carousel from '../components/Carousel'
 
 const Home: NextPage = () => {
   const homeLayoutProps = {
@@ -12,13 +11,7 @@ const Home: NextPage = () => {
   return (
     <Layout {...homeLayoutProps}>
       <div>
-        <div className={styles.imageWrapper}>
-          <Image 
-            src={homePhoto1}
-            alt="Example photography"
-            layout="fill"
-          />
-        </div>
+        <Carousel />
       </div>
     </Layout>
   )

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from './Nav.module.css'
+import styles from '../../styles/components/Nav.module.css'
 
 const Nav = () => {
   const [isActive, setIsActive] = useState(false)

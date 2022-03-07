@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styles from '../../styles/components/Nav.module.css'
+import Link from 'next/link'
 
 const Nav = () => {
   const [isActive, setIsActive] = useState(false)
@@ -18,10 +19,26 @@ const Nav = () => {
         </g>
       </svg>
       <ul className={`${styles.menuItemsWrapper} ${isActive && styles.menuIsActive}` }>
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+          <Link href='/'>
+            <a>Home</a>
+          </Link>
+        </li>
+        <li>
+          <Link href='/portfolio'>
+          <a>Portfolio</a>
+          </Link>
+        </li>
+        <li>
+          <Link href='/about'>
+          <a>About</a>
+          </Link>
+        </li>
+        <li>
+          <Link href='/contact'>
+          <a>Contact</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   )
